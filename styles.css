@@ -1,0 +1,78 @@
+body{
+    margin: 0; 
+    height: 100vh;    
+    min-height: 1500px; 
+    font-family: Orbitron;  
+  }
+  
+  .container{
+    background-color: #29123a;
+    width: 100%; 
+    height: 100%;    
+    min-height: 1500px;
+    position: relative;   
+  }
+  
+  .sceneTitle {
+    position: absolute;
+    color: #fcd8be;
+    height: 100%;    
+    min-height: 1500px;
+    font-size: 100px;
+    padding: 0 0 0 5% ;
+    left: 610px; 
+    border-left: 5px solid #fcd8be 
+  }
+  
+  .sceneTitle h2 {
+    margin: 0px ;
+    padding: 20px;
+    padding-top: 10%;
+  }
+  
+  .button {
+      background-color: #c56474;
+      font-family: Orbitron; 
+      border: none;
+      color: #f7e6da;
+      padding: 40px 32px 25px 32px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 80px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  
+  .button:hover {background-color: #884261}
+  
+  .button:active {
+    background-color: #884261;
+    transform: translateY(4px);
+  }
+  
+  button:focus {outline:0;}
+  
+  .scene {
+    background-color: #29123a;
+    height: 100%;    
+    min-height: 1500px; 
+    width: 610px; 
+    background-image: url("img/background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .grass {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0  ;  
+  }
+  
+  .human , .spaceship , .light , .moon{
+    position: absolute;
+    margin: 0 ; 
+  }
+  
