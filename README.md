@@ -3,7 +3,7 @@
 ## Description
 Now you know about updating `positions`, manipulation the DOM and using `setInterval`, you can make an alien abduction scene 👽!
 
-You will need to design a logic for the scene so that when we press the start scene button a spaceship will come from the sky to abduct a human! the final scene should look like something like this [sample scene](starter-code/img/scene.jpg)
+You will need to design a logic for the scene so that when we press the start scene button a spaceship will come from the sky to abduct a human! the final scene should look like something like this [sample scene](img/scene.jpg)
 
 I have provided some startup files with a nice assets from freepik.com
 
